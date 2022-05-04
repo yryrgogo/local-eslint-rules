@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": false,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
